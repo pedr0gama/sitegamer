@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <link rel="icon" href="imagens/logomarca.png"class="icon">
+    <title>GOSTH</title>
+    <head>
+
+ 
+      <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+          background-image: url(imagens/fundo2.jpg);
+
+          font-family: Arial, sans-serif;
+          margin: 0;
+        background-color: #2d2d2d;
+       
+        }
+        header{
+          margin-bottom: 1rem;
+         background-color: #2d2d2d;
+       }
+          .nav_header{
+              gap:3em;
+              z-index: 2;
+              text-align: center;
+             
+          }
+          .nav_header a{
+              height: 3px;
+              text-align:center;
+              text-decoration: none;
+              color: #ffffff;
+              font-weight: bold;
+              margin: 2%;
+          }
+          .header_nav{
+              background-color: #28292C;
+              justify-content: space-between;
+              padding:1%;
+          }
+             
+     .logo_header{
+         padding: center;
+         text-align: center;
+     }
+       h1{
+         margin-left:5% ;
+         text-align: left;
+         padding: 3%;
+       }
+        h2{
+          margin-bottom: 1rem;
+       margin-left: 25%;
+          color: #ffffff;
+         
+        }
+        .nav_cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-left: 25%;
+}
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color:#fff;
+  margin-left: 25%;
+}
+        .logo1 {
+          width: 5%;
+        }
+        .banner{
+          width: 100%;
+        }
+        .insta_img{
+         padding: 50px;
+         background-color: #2d2d2d;
+         text-align: center;
+        }
+        p {
+         color: #ffffff;
+         margin-left: 25%;
+         margin-right: 30%;
+         margin-bottom: 1rem;
+          text-align: justify;
+          font-size: 16px; line-height: 1.3em;
+        text-transform: capitalize;
+        }
+        footer {
+          margin-top: 8%;
+             background-color: #333;
+             text-align: center;
+             padding: 1rem 0;
+            }  
+            footer nav a {
+             color: #fff;
+             text-decoration: none;
+             margin: 0 1rem;
+           }
+       </style>
+
+    </head>
+
+
+    <body>  
+        <header>
+            <div class="logo_header">
+                <img src="imagens/logo.png" class="img_logo">
+            </div>
+            <div class="header_nav" id="header">  
+        <div class="nav_header">
+            <a href="index.html">INICIO</a>
+            <a href="produtos.html">PRODUTOS</a>
+            <a href="sobre.html">SOBRE NÓS</a>
+            <a href="contato.html">CONTATO</a>
+            
+        </div>
+        </header>
+       
+        <section>
+
+          <h2>CONTATO</h2>
+          <p>Preencha o Formulario para entrar em contato conosco</p>
+          <form action="processa_contato.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            
+            <input type="submit" value="Enviar">
+          </form>
+        </section>
+      </main>
+    
+        <footer>
+          <nav>
+            <a href="https://www.instagram.com/phzinh_01/" target="_blank">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=+557799407594" target="_blank">WhatsApp</a>
+          </nav>
+          <div class="footer_nav"></div>
+  <img src="imagens/logo.png" alt="">
+          </div>
+
+    
+        </footer>
+        </body>
+        </html>
+        
